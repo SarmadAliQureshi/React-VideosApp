@@ -1,11 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import SearchBar from './SearchBar'
 
-// class App extends React.Component
-const App = () =>{
-return(
-    <div>Hello World</div>
+class App extends React.Component{
+render(){
+    return(
+    <div className="ui container">
+        <SearchBar/>
+    </div>
 )
+    }
+
 }
 
 export default App
