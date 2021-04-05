@@ -12,6 +12,7 @@ this.setState({searchTerm : e.target.value})
 onFormSubmit = (e)=>{
     e.preventDefault()
     console.log(this.state.searchTerm)
+    this.props.onFormSubmit(this.state.searchTerm)
 }
 
 render(){
