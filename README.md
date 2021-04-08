@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+This is the integration of YouTube API into your web page.
+You can search for the video term in the webpage and show video inside your page instead of redirecting to YouTube site.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
